@@ -7,8 +7,8 @@ MAX_PIXELS = 55
 SHINE_LIGHT_INTERVAL = 120
 MOTION_DETECTED_PIN = 21
 LED_STRIP_PIN = board.D18
-WHITE = (255,255,255)
-OFF = (0,0,0)
+WHITE = (255, 255, 255)
+OFF = (0, 0, 0)
 
 pixels = neopixel.NeoPixel(LED_STRIP_PIN, MAX_PIXELS, brightness=1.0)
 
