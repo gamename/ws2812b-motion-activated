@@ -10,7 +10,7 @@ LED_STRIP_PIN = board.D18
 WHITE = (255, 255, 255)
 OFF = (0, 0, 0)
 
-pixels = neopixel.NeoPixel(LED_STRIP_PIN, MAX_PIXELS, brightness=1.0)
+pixels = neopixel.NeoPixel(LED_STRIP_PIN, MAX_PIXELS, brightness=0.05)
 
 GPIO.setwarnings(False)
 
